@@ -2,7 +2,8 @@
   "name": "space-admin-vue3",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode development",
+    "build:test": "vue-tsc --noEmit && vite build --mode test",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
